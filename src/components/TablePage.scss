@@ -1,64 +1,61 @@
-// TablePage.scss
-
 .table-container {
     margin-top: 20px;
   
     table {
-      width: 100%;
-      border-collapse: collapse;
+        width: 100%;
+        border-collapse: collapse;
   
-      th, td {
-        border: 1px solid #ccc;
-        padding: 8px;
-      }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+        }
   
-      th {
-        background-color: #f0f0f0;
-      }
+        th {
+            background-color: #f0f0f0;
+        }
     }
   
     .modal-content {
-      background-color: #fff;
-      padding: 16px;
-      width: 400px;
-      margin: 20px auto;
-      border-radius: 8px;
+        background-color: #fff;
+        padding: 16px;
+        width: 400px;
+        margin: 20px auto;
+        border-radius: 8px;
   
-      h2 {
-        font-size: 1.5rem;
-        margin-bottom: 16px;
-      }
+        h2 {
+            font-size: 1.5rem;
+            margin-bottom: 16px;
+        }
   
-      p {
-        margin-bottom: 8px;
-      }
+        p {
+            margin-bottom: 8px;
+        }
   
-      button {
-        margin-top: 16px;
-      }
+        button {
+            margin-top: 16px;
+        }
     }
 }
 
 .store-title {
-  display: flex;
-  align-items: center;
-  margin-top: 30px; /* Add margin bottom for spacing */
-
+    display: flex;
+    align-items: center;
+    margin-top: 30px; 
   
 }
 .store-title h2 {
-    margin: 0; /* Remove default margin */
-    font-size: 1.5rem; /* Set font size */
+    margin: 0; 
+    font-size: 1.5rem; 
     font-weight: normal;
 }
 
 /* New styles for rounded rectangle */
 .rounded-rectangle {
-    background-color:navy; /* Purple color */
-    color: white; /* White text color */
-    border-radius: 10px; /* Rounded corners */
-    padding: 10px 20px; /* Adjust padding */
-    font-size: 0.9rem; /* Adjust font size */
+    background-color:navy;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 0.9rem;
     margin-left:20px;
     height:20px;
 }
@@ -80,49 +77,50 @@
 }
 
 .dashboard-title {
-    color: white; /* Blue color */
+    color: white;
     font-size: 24px;
-    margin-right: 10px; /* Adjust margin to bring it closer to search bar */
+    margin-right: 10px;
     margin-left:50px;
 }
 
 .search-bar {
     display: flex;
     align-items: center;
-    position: relative; /* Set position to relative */
+    position: relative;
     margin-right: 500px;
 
 }
 
 .search-bar input[type="text"] {
-    padding: 8px 30px 8px 8px; /* Adjust padding to accommodate the icon */
+    padding: 8px 30px 8px 8px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-right: 20px;
-    width: 100%; /* Set width to fill the available space */
+    width: 100%;
 }
 
 .search-icon {
-    position: absolute; /* Set position to absolute */
-    right: 0px; /* Adjust right position to position the icon */
-    top: 50%; /* Center the icon vertically */
-    transform: translateY(-50%); /* Center the icon vertically */
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .active-icons {
     display: flex;
     align-items: center;
-    margin-left: 30px; /* Increase margin to create more space between active-text and icons */
+    margin-left: 30px;
 }
 
 .active-text {
-    margin-right: 20px; /* Increase margin to create more space between active-text and icons */
+    margin-right: 20px;
     font-weight: bold;
 }
+
 .filter-container {
     display: flex;
     align-items: center;
-    margin-top: 10px; /* Adjust margin */
+    margin-top: 10px;
     margin-left: 800px;
     color: navy;
    
@@ -130,46 +128,45 @@
 .filter-bar {
     display: flex;
     align-items: center;
-    justify-content: center; /* Center align items horizontally */
-    border: 1px solid navy; /* Border for the filter bar */
-    border-radius: 20px; /* Rounded corners */
-    padding: 5px 10px; /* Add padding */
+    justify-content: center;
+    border: 1px solid navy;
+    border-radius: 20px;
+    padding: 5px 10px;
     height: 50px;
-    width: 120px; /* Increase width for better alignment */
+    width: 120px;
 }
 
 .filter-icon {
-    font-size: 1.5rem; /* Increase icon size */
-    color: #555; /* Icon color */
-    margin-right: 10px; /* Add spacing between icon and text */
+    font-size: 1.5rem;
+    color: #555;
+    margin-right: 10px;
 }
 
 .filter-text {
-    font-size: 1rem; /* Adjust font size */
-    color: navy; /* Text color */
+    font-size: 1rem;
+    color: navy;
     font-weight: bold;
     text-align: center;
 }
 .add-items {
     display: flex;
     align-items: center;
-    border: 1px solid navy; /* Border for the rounded rectangle */
-    border-radius: 20px; /* Rounded corners */
-    padding: 5px 10px; /* Add padding */
-    //margin-top: 10px; /* Add margin to separate from the previous rounded rectangle */
+    border: 1px solid navy;
+    border-radius: 20px;
+    padding: 5px 10px;
     height: 50px;
-    width: fit-content; /* Adjust width to fit content */
+    width: fit-content;
 }
 
 .plus-icon {
-    font-size: 1.5rem; /* Adjust icon size */
-    color: white; /* Icon color */
-    margin-right: 10px; /* Add spacing between icon and text */
+    font-size: 1.5rem;
+    color: white;
+    margin-right: 10px;
 }
 
 .add-items-text {
-    font-size: 1rem; /* Adjust font size */
-    color: white; /* Text color */
+    font-size: 1rem;
+    color: white;
     font-weight: bold;
     text-align: center;
 }
@@ -178,23 +175,23 @@
 .container {
     max-width: 960px;
     margin: 0 auto;
-    padding: 0 15px; /* Add padding for smaller screens */
+    padding: 0 15px;
 }
 
 .text-lg {
-    font-size: 1.25rem; /* Larger font size */
+    font-size: 1.25rem;
 }
 
 .font-semibold {
-    font-weight: 600; /* Semibold font weight */
+    font-weight: 600;
 }
 
 .bg-white {
-    background-color: #FFF; /* White background */
-    padding: 1rem; /* Add padding */
+    background-color: #FFF;
+    padding: 1rem;
     border-radius: 0.5rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin-bottom: 1rem; /* Add margin to separate elements */
+    margin-bottom: 1rem;
 }
 
 .notification-icon {
@@ -203,6 +200,6 @@
 
 @media screen and (max-width: 768px) {
     .container {
-        padding: 0 10px; /* Adjust padding for smaller screens */
+        padding: 0 10px;
     }
 }
